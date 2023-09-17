@@ -1,0 +1,152 @@
+body {
+  position: relative;
+  background: #191d28;
+  min-height: 100vh;
+  color: #fff;
+  font-family: Oswald, sans-serif;
+}
+
+.inrbtn {
+  display: inline-flex;
+  vertical-align: middle;
+  background-color: #2e3241;
+  margin: 10px;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+}
+.inr {
+  border: none;
+  padding: 10px 20px;
+  background-color: #2e3241;
+  color: #fff;
+}
+
+select:focus {
+  outline: none;
+}
+#nav {
+  padding: 20px 30px 0px;
+  /* justify-content: center; */
+}
+#logo {
+  display: inline;
+}
+
+#btns {
+  display: inline;
+  position: relative;
+  padding: 2%;
+  margin: 15%;
+  justify-content: center;
+  /* left: 15%; */
+  bottom: 5%;
+}
+
+#telbtn {
+  display: inline-block;
+  position: relative;
+  border: 1px;
+  margin: 10px;
+  padding: 6px 20px;
+  border-radius: 10px;
+  background-color: #3dc6c1;
+  color: #fff !important;
+}
+
+#tellogo {
+  display: inline;
+  width: 2%;
+}
+
+.middlecont {
+  padding-bottom: 50px;
+}
+
+#table {
+  padding: 2%;
+}
+table {
+  width: 100%;
+  border: 0px;
+  border-radius: 5px;
+  margin-bottom: 5%;
+}
+
+.pointer {
+  cursor: pointer;
+  opacity: 0.45;
+  font-family: Oswald;
+  font-size: 24px;
+  letter-spacing: 1px;
+  margin: 0 0 -5px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+th {
+  margin: 5%;
+}
+
+.table-text {
+  white-space: nowrap;
+  align-items: center;
+}
+
+.align-middle {
+  text-align: center;
+}
+
+tr {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.row {
+  background-color: #2e3241;
+}
+
+.statistics {
+  display: inline block;
+  font-weight: 400;
+  font-size: 40px;
+  color: #5dc7c2;
+}
+
+.subtext {
+  color: #fff;
+  opacity: 0.45;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 0.75px;
+}
+
+.heading {
+  font-weight: 400;
+  font-size: 80px;
+}
+
+.stat{
+  display: inline-block;
+  margin: 4%;
+  text-align: center;
+}
+#stat1{
+  margin-left: 8%;
+}
+
+#footer{
+  text-align: center;
+  padding: 2%;
+}
+#footer-btn{
+  height: 3rem;
+  background-color: #191d28;
+  color: #3dc6c1;
+  border: 1px solid #3dc6c1;
+  border-radius: 5px;
+}
+
+#footer-btn:hover{
+  background-color: #3dc6c1;
+  color: #fff;
+}
